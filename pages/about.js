@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.container}>
       <Head>
@@ -10,31 +10,31 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to CLEAR!</h1>
+        <h1 className={styles.title}>Clear - About Us</h1>
 
         <p className={styles.description}>
           Community Lead Expungement Assistance Repository
         </p>
 
         <div className={styles.grid}>
-          <a href="/faq" className={styles.card}>
-            <h3>FAQ &rarr;</h3>
-            <p>What we do. What we don't do. What you need to know.</p>
+          <a href="https://github.com/DomBruno" className={styles.card}>
+            <h3>Dominick Bruno</h3>
+            <p>Project Lead</p>
           </a>
 
-          <a href="/form" className={styles.card}>
-            <h3>Get Started &rarr;</h3>
-            <p>Start your search by selecting the state of your convictions.</p>
+          <a href="/" className={styles.card}>
+            <h3>lorem</h3>
+            <p>lorem ipsum</p>
           </a>
 
-          <a href="/about" className={styles.card}>
-            <h3>About Us &rarr;</h3>
-            <p>Meet the Team.</p>
+          <a href="/" className={styles.card}>
+            <h3>lorem</h3>
+            <p>lorem ipsum</p>
           </a>
 
-          <a href="/api-docs" className={styles.card}>
-            <h3>Developers &rarr;</h3>
-            <p>How to utilize our API in your projects.</p>
+          <a href="/" className={styles.card}>
+            <h3>Back &rarr;</h3>
+            <p>Return to Main Page.</p>
           </a>
         </div>
       </main>
